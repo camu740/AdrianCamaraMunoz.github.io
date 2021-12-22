@@ -1,5 +1,12 @@
 # 🌘 Mitología Ibérica Página Web 🌒
 
+```
+Proyecto creado para la asignatura de Lenguaje de Marcas de 1º de DAM
+```
+```
+Nota obtenida: 10
+```
+
 _Este proyecto tiene como objetivo facilitar la búsqueda de información sobre seres y lugares de la mitología de España a toda esa gente que quiere saber más sobre las historias que contaban nuestros antepasados y que es complicado encontrar debido a la poca difusión que tiene en contraposición de otras mitologías._
 
 ## Secciones de la página 📋
