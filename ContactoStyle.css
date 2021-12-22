@@ -1,0 +1,139 @@
+/*Titulos*/
+@import url("https://fonts.googleapis.com/css?family=Cinzel+Decorative");
+/*Textos importantes*/
+@import url("https://fonts.googleapis.com/css?family=Cinzel");
+/*Textos Vacios*/
+@import url("https://fonts.googleapis.com/css?family=Flow+Rounded");
+/*Textos*/
+@import url("https://fonts.googleapis.com/css?family=Poiret+One");
+
+
+body{
+    background-color: #eecfb7;
+}
+
+/*-------------------------------*/
+/*cabecera*/
+.imgcabecera{
+    width: 100%;
+}
+
+/*------------------------------*/
+/*menu*/
+.menu{
+    background-color: #DAB598;
+}
+
+.menu ul{
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li{
+    font-family: "Cinzel", bold;
+    display: inline-block;
+}
+
+.menu ul li a{
+    display: block;
+    color: black;
+    padding: 10px 35px;
+    text-decoration: none;
+    
+}
+
+/* Cambia color fondo al pasar el cursor */
+.menu ul li a:hover{
+    background-color: #415889;
+}
+
+.item-r{
+    float: right;
+}
+
+
+
+
+/*-----------------------------------*/
+/*pie de pagina*/
+/*-----------------------------------*/
+/*pie de pagina*/
+
+.logo{
+    display: block;
+    width: 5%;
+    margin-right: 45%;
+    margin-left: 45%;
+    padding: 10px;
+}
+
+
+
+/*-----------------------------------*/
+/*contenido*/
+
+.tittle{
+    font-family: "Cinzel Decorative", bold;
+    float: right;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    text-align: center;
+    align-items: center;
+}
+
+.formulario fieldset{
+    width: 50%;
+    padding: 15px;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+
+    font-family: "Poiret One", bold;
+    font-size: 50;
+    border-left: 6px solid #415889;
+    background-color: #DAB598;
+}
+
+input:valid {
+    background-color: #B4E0B4;
+  }
+
+  input:invalid {
+    background-color: #E09D92;
+  }
+
+  .contacto{
+    align-items: center;
+  }
+  
+  .redes {
+    border-collapse: collapse;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: #DAB598;
+  }
+  
+  .redes th, td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #415889;
+
+    font-family: "Cinzel", bold;
+  }
+
+  .redes th, td, a{
+    color: black;
+    text-decoration: none;
+  }
+
+  .redes a:hover{
+    color: #415889;
+}

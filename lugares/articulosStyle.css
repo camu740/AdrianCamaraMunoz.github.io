@@ -1,0 +1,163 @@
+/*Titulos*/
+@import url("https://fonts.googleapis.com/css?family=Cinzel+Decorative");
+/*Textos importantes*/
+@import url("https://fonts.googleapis.com/css?family=Cinzel");
+/*Textos Vacios*/
+@import url("https://fonts.googleapis.com/css?family=Flow+Rounded");
+/*Textos*/
+@import url("https://fonts.googleapis.com/css?family=Poiret+One");
+
+
+body{
+    background-color: #eecfb7;
+}
+
+/*-------------------------------*/
+/*cabecera*/
+.imgcabecera{
+    width: 100%;
+}
+
+/*------------------------------*/
+/*menu*/
+.menu{
+    background-color: #DAB598;
+}
+
+.menu ul{
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li{
+    font-family: "Cinzel", bold;
+    display: inline-block;
+}
+
+.menu ul li a{
+    display: block;
+    color: black;
+    padding: 10px 35px;
+    text-decoration: none;
+    
+}
+
+/* Cambia color fondo al pasar el cursor */
+.menu ul li a:hover{
+    background-color: #415889;
+}
+
+.item-r{
+    float: right;
+}
+
+/*-----------------------------------*/
+/*pie de pagina*/
+
+.logo{
+    display: block;
+    width: 4%;
+   
+    margin-right: 48%;
+    margin-left: 48%;
+}
+
+/*------------------------------*/
+/*contenido*/
+
+.contenido{
+    background-color: #DAB598;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 1%;
+    width: 80%;
+}
+
+.tittle{
+    font-family: "Cinzel Decorative", bold;
+    float: left;
+    width: 100%;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.textoC{
+    float: left;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: "Flow Rounded";
+    text-align: left;
+}
+
+.imagenI{
+    float: left;
+    width: 30%;
+    margin-left: 15%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-family: "Cinzel", bold;
+    text-align: center;
+}
+
+.imagenD{
+    float: right;
+    width: 30%;
+    margin-left: 1%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-family: "Cinzel", bold;
+    text-align: center;
+}
+
+.mapa{
+    float: left;
+    margin-left: 8%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.desplegable select{
+    float: left;
+    background-color:#415889;
+    color:#DAB598;
+    margin-right: 40%;
+    margin-left: 40%;
+    border-radius: 2%;
+    border-color: black;
+    width:20%;
+    text-align: center;
+    font-family: "Cinzel", bold;
+}
+
+.desplegable input{
+    float: left;
+    background-color:#415889;
+    color:#DAB598;
+    margin-right: 45%;
+    margin-left: 45%;
+    margin-top: 1%;
+    border-radius: 2%;
+    border-color: black;
+    margin-bottom: 2%;
+    width: 10%;
+    text-align: center;
+    font-family: "Cinzel", bold;
+}
+
+.subtittle{
+    font-family: "Cinzel Decorative", bold;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+

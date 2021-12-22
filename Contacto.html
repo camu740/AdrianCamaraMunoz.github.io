@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MitologiaIberica.es</title>
+    <meta charset= "UTF-8">
+    <link rel="stylesheet" href="ContactoStyle.css">
+</head>
+<body>
+
+    <header>
+        <!--Imagen de cabecera-->
+        <img class="imgcabecera" src="images/cabecera.png" height="100%">
+    </header>
+
+    <div class = "menu">
+        <ul>
+            <li> <a href="index.html"> <h3> Inicio </h3> </a></li>
+            <li> <a href="Seres.html"> <h3> Seres Mitologicos </h3> </a></li>
+            <li> <a href="Lugares.html"> <h3> Lugares Mitologicos </h3> </a></li>
+            <li class="item-r"> <a href="Nosotros.html"> <h3> Conócenos </h3> </a></li>
+            <li class="item-r"> <a href="Contacto.html"> <h3> Contacto </h3> </a></li>
+        </ul>
+    </div>
+
+    <div class = "tittle">
+        <h1>Ideas &nbsp & &nbsp Sugerencias</h1>
+    </div>
+
+    <div class = "formulario"> 
+
+        <fieldset>
+            <legend><h2>Propuesta de personaje o lugar Mitológico:</h2></legend>
+
+            <label for="name"><h3>Nombre del ser :</h3></label>
+            <input type="text" id="fname" name="fname" placeholder="Nombre del ser" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required>
+            <p>*Un nombre válido tiene entre 2 y 48 caracteres y solo contendrá letras*</p>
+            <br>
+
+            <label for="location"><h3>Lugar de origen:</h3></label>
+            <input type="text" id="flocation" name="flocation" placeholder="Lugar de origen del ser" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,64}" required>
+            <p>*Un lugar válido tiene entre 2 y 64 caracteres y solo contendrá letras*</p>
+            <br>
+
+            <label for="popularity"><h3>Tipo de ser: </h3></label>
+            <select id="type" name="type">
+                
+                <option value="Benévolos">Seres benévolos</option>
+                <option value="Terroríficos">Ogros, Asustaniños u otros seres terroríficos</option>
+                <option value="Duendes">Duendes o seres pequeños</option>
+                <option value="Dioses">Deidades</option>
+                <option value="Lugares">Lugares Mitologicos</option>
+                <option value="Otros">Otros</option>
+            </select>
+            <br><br>
+
+            <p><h3>¿Es muy conocido? (1-5):</h3></p>
+                <input type="radio" id="pop1" name="popular" value="1">
+                <label for="1">1</label>
+
+                <input type="radio" id="pop2" name="popular" value="2">
+                <label for="2">2</label>
+
+                <input type="radio" id="pop3" name="popular" value="3">
+                <label for="3">3</label>
+
+                <input type="radio" id="pop4" name="popular" value="4">
+                <label for="4">4</label>
+                        
+                <input type="radio" id="pop5" name="popular" value="5">
+                <label for="5">5</label>
+
+            <br>
+            <br>
+
+            <p><h3>Información importante:</h3></p>
+            <textarea name = "information" rows = "10" cols = "36" placeholder="Escribe aquí la información que creas conveniente que sepamos sobre el ser o lugar Mitológico que quieres sugerir." ></textarea>
+            
+            <br><br>
+
+            <label for="fecha"><h3>Fecha de consulta:</h3></label>
+            <input type="date" id="fecha" name="fecha">
+
+            <button type="send" onclick="alert('Datos enviados, gracias por colaborar!')">Enviar</button>
+
+
+            <br><br>
+        </fieldset>
+    </div>
+
+    <div class = "contacto">
+        <div class = "tittle">
+            <h1>Contacta con nosotros</h1>
+        </div>
+
+        <table class = "redes">
+            <tr>
+                <th>Nuestras redes sociales</th>
+            </tr>
+        </table>
+
+        <table class = "redes">
+            <tr>
+                <th>Twitter Creador</th>
+                <th><a href="https://twitter.com/adriancamara0" target="_blank">@adriancamara0</a></th>
+            </tr>
+            <tr>
+                <th>Twitter Ilustrador</th>
+                <th><a href="https://twitter.com/JaviertPrado" target="_blank">@JaviertPrado</a></th>
+            </tr>
+            <tr>
+                <th>Instagram</th>
+                <th rowspan="2">No Disponible</th>
+            </tr>
+            <tr>
+                <th>Correo contacto</th>
+            </tr>
+        </table>
+
+    </div>
+
+    <br><br>
+
+    <br><br><br>
+    <figure class="footer">
+        <div class = "logo">
+            <a href="Nosotros.html"><img src = "images/logo.png" width = 100%></a>
+        </div>
+    </figure>
+</body>
+</html>
