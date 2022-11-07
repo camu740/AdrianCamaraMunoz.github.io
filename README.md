@@ -41,13 +41,13 @@ _Podeis acceder directamente a la web desde los siguientes enlaces:_
 
 ## Contribuciones 👍 
 
-Por favor dejanos tus opiniones en nuestro [Twitter](https://twitter.com/adriancamara0) para que podamos mejorar la página web.
+Por favor dejame tu opinion en mi [Twitter](https://twitter.com/adriancamara740) para que podamos mejorar la página web.
 
 ## Autores ✒️
 
 _Este proyecto ha sido posible gracias a la participación de:_
 
-* **Adrián Cámara** - *Programador y escritor de la página* - [@adriancamara0](https://twitter.com/adriancamara0)
+* **Adrián Cámara** - *Programador y escritor de la página* - [@adriancamara740](https://twitter.com/adriancamara740)
 * **Javier Prado** - *Ilustrador* - [@JaviertPrado](https://twitter.com/JaviertPrado)
 
 ## Licencia 📜
@@ -62,4 +62,4 @@ El código de la página es de uso gratuito siempre y cuando se acredite la proc
 * Disfruta y aprende con nuestro proyecto 🔎
 
 ---
-⌨️ por [Adrián Cámara Muñoz](https://twitter.com/adriancamara0) 💛
+⌨️ por [Adrián Cámara Muñoz](https://twitter.com/adriancamara740) 💛
